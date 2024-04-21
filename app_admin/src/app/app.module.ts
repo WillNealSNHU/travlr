@@ -8,7 +8,10 @@ import { TripCardComponent } from './trip-card/trip-card.component';
 import { TripAddComponent } from './add-trip/add-trip.component';
 import { TripDataService } from './services/trip-data.service';
 import { TripEditComponent } from './trip-edit/trip-edit.component';
-
+import { AppRoutingModule } from './app.routes';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +21,15 @@ import { TripEditComponent } from './trip-edit/trip-edit.component';
     TripCardComponent,
     TripAddComponent,
     TripEditComponent,
+    NavbarComponent,
+    HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     ReactiveFormsModule,
-
+    AppRoutingModule
   ],
   providers: [
     TripDataService

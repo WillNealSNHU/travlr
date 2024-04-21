@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/travel');
-
-router.get('/', controller.tripList);
+const controller = require('../controllers/news');
+router.get('/', controller.newsList);
 
 module.exports = router;
