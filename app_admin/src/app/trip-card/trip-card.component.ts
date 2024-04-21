@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Trip } from '../models/trip';
+import { AuthenticationService } from '../services/authentication.service';
 @Component({
   selector: 'app-trip-card',
   standalone: true,
@@ -10,14 +12,18 @@ import { CommonModule } from '@angular/common';
 
 export class TripCardComponent implements OnInit {
 
-@Input('trip') trip: any;
+@Input('trip') trip: Trip;
 
-constructor() {}
+constructor(
+  private authenticationService: AuthenticationService,
+  private router: Router) { }
 
-ngOnInit(): void {
+ngOnInit(): void { }
   
+}  public isLoggedIn(): boolean {
+  return this.authenticationService.isLoggedIn();
 }
-}
+
 
 /*
 import { Component, OnInit, Input } from '@angular/core';
