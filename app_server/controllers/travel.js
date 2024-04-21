@@ -4,17 +4,16 @@ const apiOptions = {
     server: 'http://localhost:3000'
 }
 
-/* Render travel list view */
 const renderTripList = (req, res, responseBody) => {
     let message = null;
-    let pageTitle = packageJson.description + ' | Travel';
+    let pageTitle = packageJson.description + 'Travel';
 
     if (!(responseBody instanceof Array)) {
         message = 'API lookup error';
         responseBody = [];
     } else {
         if (!responseBody.length) {
-            message = 'No trips found in database';
+            message = 'literally no trip found broski';
         }
     }
 
@@ -26,7 +25,6 @@ const renderTripList = (req, res, responseBody) => {
     });
 };
 
-/* GET trip list. */
 const tripList = (req, res) => {
     const path = '/api/trips';
     const url = `${apiOptions.server}${path}`;
@@ -37,7 +35,7 @@ const tripList = (req, res) => {
             if (response.ok) {
                 return response.json();
             }
-            throw new Error('Network response was not ok.');
+            throw new Error('travel controllwer under routes travel js');
         })
         .then(body => {
             let trips = [];
@@ -47,7 +45,7 @@ const tripList = (req, res) => {
             renderTripList(req, res, trips);
         })
         .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
+            console.error('fetch is down --->', error);
         });
 };
 

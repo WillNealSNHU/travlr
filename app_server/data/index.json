@@ -1,0 +1,46 @@
+{
+    "hero": {
+        "title": "Enjoy the Summer with Us!",
+        "image": "sea-sound.jpg",
+        "alt": "Img",
+        "content": "hero content under index json"
+    },
+    "blogs": [
+        {
+            "title": "2024 Best Beaches Contest Winners",
+            "link": "/news",
+            "date": "April 21, 2024",
+            "description": "description under blogs under index json"
+        },
+        {
+            "title": "Top 10 Diving Spots",
+            "link": "/news",
+            "date": "April 21, 2024",
+            "description": "description under blogs under index json"
+        }
+    ],
+    "testimonials": [
+        {
+            "author": "A person writing a testimonial",
+            "link": "/",
+            "quote": "“this is a testimonial found under index.json"
+        }
+    ],
+    "sidebar": [
+        {
+            "link": "/rooms",
+            "image": "rooms.png",
+            "alt": "Img"
+        },
+        {
+            "link": "/travel",
+            "image": "dive-site.png",
+            "alt": "Img"
+        },
+        {
+            "link": "/meals",
+            "image": "food.png",
+            "alt": "Img"
+        }
+    ]
+}

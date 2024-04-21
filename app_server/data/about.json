@@ -1,0 +1,16 @@
+{
+    "title": "This is the about JSON",
+    "content": "the about json is located under data within app_server",
+    "crews": {
+        "title": "The Crew broski",
+        "content": "filler"
+    },
+    "amenities": {
+        "title": "Amenities right here",
+        "content": "add your content here."
+    },
+    "community": {
+        "title": "Everyone wants a community",
+        "content": "some more content here"
+    }
+}

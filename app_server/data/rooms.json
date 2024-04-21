@@ -1,0 +1,26 @@
+{
+    "1": {
+        "code": "FIRSTCLASS",
+        "name": "First Class Room",
+        "image": "first-class.jpg",
+        "alt": "Img",
+        "description": "this is creme de la creme.",
+        "rate": "9000000000 / Day"
+    },
+    "2": {
+        "code": "DELUXE",
+        "name": "Deluxe Room",
+        "image": "deluxe.jpg",
+        "alt": "Img",
+        "description": "when your upper middle class",
+        "rate": "1500 / Day"
+    },
+    "3": {
+        "code": "SUITE",
+        "name": "Suite Room",
+        "image": "suite.jpg",
+        "alt": "Img",
+        "description": "you still got it better than most",
+        "rate": "1000 / Day"
+    }
+}

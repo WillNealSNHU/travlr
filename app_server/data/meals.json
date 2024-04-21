@@ -1,0 +1,23 @@
+{
+    "1": {
+        "code": "SEAFOODSPECIAL",
+        "name": "SeaFood Special",
+        "image": "seafoods.jpg",
+        "alt": "Img",
+        "description": "<span>Fried Salmon Special</span> its salmon folks..."
+    },
+    "2": {
+        "code": "DESSERTSPECIAL",
+        "name": "Sumptuous Desserts",
+        "image": "desserts.jpg",
+        "alt": "Img",
+        "description": "<span>Choco Ice Cream Sandwich</span> I'm an ice cream sandwich like you had as a kid ..."
+    },
+    "3": {
+        "code": "BUFFET",
+        "name": "Buffet",
+        "image": "buffet.jpg",
+        "alt": "Img",
+        "description": "<span>Mixed Buffet</span> I'm writing this out for fun because ive lost my mind and my code is non functional ..."
+    }
+}
